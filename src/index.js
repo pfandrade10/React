@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import MainMenu from './navbar/navbar'
 import reportWebVitals from './reportWebVitals';
+import SideMenu from './sidebar/sidebar';
 
 ReactDOM.render(
   <React.StrictMode>
     <MainMenu/>
+    <SideMenu/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
