@@ -1,4 +1,4 @@
-import './navbar.css';
+import './content.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';
@@ -6,8 +6,10 @@ import React from 'react';
 function MainContent() {
     return (
         <>
-        <div>
+        <div className="container mainContent">
+            <div>
 
+            </div>
         </div>
         </>
         );

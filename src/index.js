@@ -5,11 +5,13 @@ import App from './App';
 import MainMenu from './navbar/navbar'
 import reportWebVitals from './reportWebVitals';
 import SideMenu from './sidebar/sidebar';
+import MainContent from './content/content';
 
 ReactDOM.render(
   <React.StrictMode>
     <MainMenu/>
     <SideMenu/>
+    <MainContent/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
