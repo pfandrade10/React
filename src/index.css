@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card{
+  margin-left: 15px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  max-height: 250px;
+  min-height: 250px;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+  background-color: #434a56 !important;
+  color: aliceblue;
+}
+
+.card-img{
+  margin-left: 15px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  max-height: 250px;
+  min-height: 250px;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+  background-color: #434a56 !important;
+  color: aliceblue;
+}
